@@ -111,8 +111,11 @@ public:
     int getWeight() {
         return this->weight;
     }
-    void class_fun3(int x) {
-        x = this->weight;
+    void class_fun1(int x) {    // pass-by-value + no-modification
+        return;
+    }
+    void class_fun2(int x) {    // pass-by-value + modification
+        x = 3;
     }
 };
 void class_modify_fun1(Car mycar) {
