@@ -43,7 +43,7 @@ Step 2: Check the parameters of the function one by one, to see if they satisfy 
 Step 3: If the above criteria are satisfied, display a warning with a suitable suggestion for improvement of the given code.<br>
 
 ## Poster developed
-todo<br>
+![image info](./snapshots/poster.png)
 
 
 ## Other details
@@ -52,3 +52,6 @@ To obtain AST for some cpp file, use this command
 ```console
 clang-11 -lstdc++ -Xclang -ast-dump testfile.cpp
 ```
+
+### Output snapshots
+todo
